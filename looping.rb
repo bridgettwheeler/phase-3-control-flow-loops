@@ -1,7 +1,7 @@
 def happy_new_year
   i = 10
-  until i == 1
-    puts '#{i}'
+  until i == 0
+    puts i
   i -= 1
   end
 puts "Happy New Year!"
@@ -25,5 +25,6 @@ def fizzbuzz_printer
 end
 
 def reverse_string(str)
-  # your code here
+  str.each do |char|
+    
 end
