@@ -28,9 +28,6 @@ def reverse_string(str)
   reversed_word = []
   str.length.times do |index|
    reversed_word = [index] + reversed_word
-   
-
-   
   end
-reversed_word
+  reversed_word.map { |string| string.chr }
 end
