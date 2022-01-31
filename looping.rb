@@ -25,6 +25,12 @@ def fizzbuzz_printer
 end
 
 def reverse_string(str)
-  str.each do |char|
-    
+  reversed_word = []
+  str.length.times do |index|
+   reversed_word = [index] + reversed_word
+   
+
+   
+  end
+reversed_word
 end
